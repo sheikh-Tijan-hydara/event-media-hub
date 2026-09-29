@@ -44,6 +44,9 @@ const onUploaded = (day) => { active.value = day; refreshKey.value++ }
   <main class="mx-auto max-w-7xl px-4 py-6">
     <DayGallery :key="active + '-' + refreshKey" :day="`day${active}`" />
   </main>
+  <footer class="bg-secondary py-6 text-center text-sm text-ink/70">
+    &copy; MLSP/2026 Media Hub. By SHEIKH TIJAN HYDARA.
+  </footer>
 
   <UploadModal v-if="showUpload" :days="days" :initial-day="active" @close="showUpload = false"
     @uploaded="onUploaded" />
