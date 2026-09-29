@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+
+# Environment variables / secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+dist/
+build/
+.nuxt/
+.output/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Uploaded media / user files
+uploads/
+media/
+assets/uploads/
+
+# Temporary files
+tmp/
+temp/
+
+# Generated files
+*.tmp
+*.bak
+*.cache
+
+# Local configuration
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Testing / coverage
+coverage/
+
+# Mac
+.AppleDouble
+.LSOverride

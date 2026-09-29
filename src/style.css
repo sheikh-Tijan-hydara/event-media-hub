@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme {
+ --color-primary: #071a33;
+ --color-secondary: #145A8D;
+--color-ink: #e8f1f5;
+--color-mint: #86c5ef;
+  --font-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif;
+}
+body { @apply bg-primary text-ink font-sans antialiased; }
+button:focus-visible, select:focus-visible, label:focus-within { outline: 2px solid var(--color-mint); outline-offset: 2px; }
